@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kontakt - SZR Trscar. Telefon: 063/8373-120. Email: nad.trska@gmail.com. Temerin, Vojvodina.">
+    <title>Kontakt | SZR Trscar - Trscani krovovi Temerin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="logo-text">SZR <span>Trscar</span></div>
+                </a>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Pocetna</a></li>
+                        <li><a href="usluge.html">Usluge</a></li>
+                        <li><a href="galerija.html">Galerija</a></li>
+                        <li><a href="o-nama.html">O nama</a></li>
+                        <li><a href="kontakt.html" class="active">Kontakt</a></li>
+                    </ul>
+                </nav>
+                <div class="header-cta">
+                    <a href="tel:+381638373120" class="phone-btn">
+                        <i class="fas fa-phone"></i> <span>063/8373-120</span>
+                    </a>
+                </div>
+                <button class="hamburger" aria-label="Meni"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Kontakt</h1>
+            <p>Javite nam se. Odgovaramo brzo.</p>
+        </div>
+    </section>
+
+    <!-- KONTAKT SECTION -->
+    <section class="section contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                
+                <!-- KONTAKT INFO -->
+                <div class="contact-info fade-in">
+                    <h2>Kontakt podaci</h2>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div class="contact-text">
+                            <strong>Telefon</strong>
+                            <a href="tel:+381638373120">063/8373-120</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fab fa-viber"></i></div>
+                        <div class="contact-text">
+                            <strong>Viber</strong>
+                            <a href="viber://chat?number=%2B381638373120">063/8373-120</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-text">
+                            <strong>Email</strong>
+                            <a href="mailto:nad.trska@gmail.com">nad.trska@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-text">
+                            <strong>Adresa</strong>
+                            <span>Klapka Djerda 21</span>
+                            <span>21235 Temerin, Srbija</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                        <div class="contact-text">
+                            <strong>Radno vreme</strong>
+                            <span>Pon - Sub: 08:00 - 18:00</span>
+                            <span>Ned: Po dogovoru</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-id-card"></i></div>
+                        <div class="contact-text">
+                            <strong>Pravni podaci</strong>
+                            <span>PIB: 106788004</span>
+                            <span>MB: 62268816</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- KONTAKT FORMA -->
+                <div class="contact-form-wrapper fade-in">
+                    <h2>Posaljite upit</h2>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Ime i prezime</label>
+                            <input type="text" id="name" name="name" required placeholder="Vase ime">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="06X/XXX-XXXX">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email (opciono)</label>
+                            <input type="email" id="email" name="email" placeholder="vas@email.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Poruka</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Opisite sta vam treba - tip objekta, velicina krova, lokacija..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">
+                            <i class="fab fa-viber"></i> Posalji preko Viber-a
+                        </button>
+                        
+                        <p class="form-note">Ili nas pozovite direktno: <a href="tel:+381638373120">063/8373-120</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAPA -->
+    <section class="map-section">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.8936!2d19.8807!3d45.4007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDI0JzAyLjUiTiAxOcKwNTInNTAuNiJF!5e0!3m2!1sen!2srs!4v1600000000000!5m2!1sen!2srs" 
+            width="100%" 
+            height="400" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy"
+            title="Lokacija SZR Trscar Temerin">
+        </iframe>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h4>SZR Trscar</h4>
+                    <p>Trscani krovovi sa tradicijom. Od 2010. godine gradimo krovove koji traju generacijama.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigacija</h4>
+                    <ul>
+                        <li><a href="index.html">Pocetna</a></li>
+                        <li><a href="usluge.html">Usluge</a></li>
+                        <li><a href="galerija.html">Galerija</a></li>
+                        <li><a href="o-nama.html">O nama</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Kontakt</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Klapka Djerda 21, 21235 Temerin</p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+381638373120">063/8373-120</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:nad.trska@gmail.com">nad.trska@gmail.com</a></p>
+                </div>
+                <div class="footer-hours">
+                    <h4>Radno vreme</h4>
+                    <p>Ponedeljak - Subota: 08:00 - 18:00</p>
+                    <p>Nedelja: Po dogovoru</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span class="current-year">2024</span> SZR Trscar. Sva prava zadrzana.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="viber://chat?number=%2B381638373120" class="viber-float"><i class="fab fa-viber"></i></a>
+    <a href="tel:+381638373120" class="call-float"><i class="fas fa-phone"></i></a>
+    <script src="js/main.js"></script>
+</body>
+</html>
